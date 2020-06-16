@@ -7,7 +7,7 @@ def initialize(name, grade, id=nil)
   @grade = grade
 end
 
-def create_table
+def se.fcreate_table
   sql =  <<-SQL
      CREATE TABLE IF NOT EXISTS students (
        id INTEGER PRIMARY KEY,
